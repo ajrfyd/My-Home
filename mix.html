@@ -32,6 +32,153 @@
 
 </html>
  <!--
+       /* 아래는 링크 밑줄 없애기*/
+    
+        a {
+            color:black;
+            text-decoration: none; 
+        }
+
+
+
+    <style>
+          body{
+            margin:0;
+          }
+          a {
+            color:black;
+            text-decoration: none;
+          }
+          h1 {
+            font-size:45px;
+            text-align: center;
+            border-bottom:1px solid gray;
+            margin:0;
+            padding:20px;
+          }
+          ol{
+            border-right:1px solid gray;
+            width:100px;
+            margin:0;
+            padding:20px;
+          }
+          #grid{
+            display: grid;
+            grid-template-columns: 150px 1fr;
+          }
+          #grid ol{
+            padding-left:33px;
+          }
+          #grid #article{
+            padding-left:25px;
+          }
+          @media(max-width:800px) {
+            #grid{
+            display: block;
+          }
+          ol{
+            border-right:none;
+           }
+           h1 {
+                border-bottom:none;
+           }
+          }
+    </style>
+
+
+
+
+
+
+
+
+    <head>
+        <meta charset="utf-8">
+        <title> 반응형 </title>
+        <style>
+            div {
+                border:10px solid green;
+                font-size:60px;
+            }
+            @media(max-width:800px) {
+            div {
+                display:none;
+            }
+           }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            Responsive
+        </div>
+
+
+
+
+
+
+<style>
+        h1 {
+            border-bottom:2px solid gray;
+            padding:20px;
+            margin:0px;
+            width:px;
+            text-align:center;
+           
+       
+        }
+        ol {
+            border-right:2px solid gray;
+            width:100px;
+            font:20px ;
+            margin:0;
+            padding:32px;
+        }
+        body{
+            margin:0;
+        }
+        #grid{
+          display:grid;
+          grid-template-columns:150px 1fr;
+        }
+        #at {
+          padding:30px;  
+        }
+    /*
+    css box model
+    */
+    </style>
+
+
+
+
+    h1 {
+            border-bottom:2px solid gray;
+            padding:20px;
+            margin:0px;
+            width:px;
+            text-align:center;
+           
+       
+        }
+        ol {
+            border-right:2px solid gray;
+            width:100px;
+            font:20px ;
+            margin:0;
+            padding:20px;
+        }
+        body{
+            margin:0;
+        }
+
+
+
+    boder-bottom:1px solid gray;
+
+
+
     div - block element 전체를 씀
     span - inline element 딱 그만큼 씀
     2fr 1fr 화면을 2:1로 씀  
