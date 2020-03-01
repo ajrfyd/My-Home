@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> formchoice 2 </title>
+
+  </head>
+
+    <body>
+      <form action="http://localhost/order.php">
+        <h1> 색상(단일선택) </h1>
+            <p>  
+            빨강색 : <input type="radio" name="color" value="red">
+            검정색 : <input type="radio" name="color" value="black">
+            초록색 : <input type="radio" name="color" value="green">
+        </p>
+        
+        <h1> 길이(중복선택) </h1>
+        <p>  
+            10cm : <input type="checkbox" name="size" value="10cm">
+            20cm :<input type="checkbox" name="size" value="20cm">
+            30cm : <input type="checkbox" name="size" value="30cm">
+        </p>
+        <input type="submit">
+      </form>
+    </body>
+
+
+    <!-- 
+        라디오는 이름이 같은것들 끼리 그루핑 됨.(같은 이름을 지정해 줘야 한개만 선택됨.)
+        체크박스는 중복 선택 가능 
+        태그에 checked 를 넣으면 체크 되어 로드됨.
+    -->
+</html>

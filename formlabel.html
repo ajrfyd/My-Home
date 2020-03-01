@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Form 문자입력 </title> 
+  </head>
+    <body>
+      <form action="http://localhost/label.php">
+        <p>
+          <label for="id_id">ID</label> : <input id="id_id" type="text" name="id" value="값을 입력하시오">
+        </p>
+        <p>
+          <label for="pass">paswword</label> : <input id="pass" type="password" name="pass" value="default value">
+        </p>
+        <p>
+          <label>문장을 입력 하시오 : <textarea name="input" cols="50" rows="3"> 입력해 보시오. </textarea></label>
+        </p>
+        <p>
+          <label>
+            붉은색<input type="checkbox" name="color" value="red">
+          </label> 
+        </p>  
+        <input type="submit">
+
+
+      </form>  
+    </body>
+
+
+<!--
+  <label> 을 감싸주면 무언가의 이름표이다. 
+  <label> 로 감싸면 글씨를 클릭하면 칸 혹은 버튼을 클릭하는 효과가 있다.
+
+-->
+</html>
