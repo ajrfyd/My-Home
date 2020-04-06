@@ -1,0 +1,36 @@
+.container {
+    border:2px solid black;
+    width:800px;
+    height:200px;
+    display:flex;
+    margin:0 auto;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+}  
+.container div {
+    border:1px solid red;
+    width:790px;
+    height:190px;
+    background:gray;
+}
+.box1 {
+    width:500px;
+}
+.container2 {
+    display:flex;
+    border:2px solid black;
+    margin:0 auto;
+    width:800px;
+    height:400px;
+}
+.container2 div {
+    border:1px solid red;
+    }
+    .box2 {
+        width:300px;
+    }
+    .box3 {
+        width:500px;
+        padding:10px;
+    }
