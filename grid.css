@@ -1,0 +1,35 @@
+/* container init */
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas:
+    "header header header"
+    "nav section aside"
+    "footer footer footer";
+}
+
+/* All Grid Items */
+.container > * {
+    background-color: mediumseagreen;
+    font-size: 80px;
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+section {
+    grid-area: section;
+}
+
+aside: {
+    grid-area: aside;
+}
+
+footer {
+    grid-area: footer;
+}
