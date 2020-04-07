@@ -4,14 +4,16 @@
     grid-gap: 5px;
     grid-template-areas:
     "header header header"
-    "nav section aside"
-    "footer footer footer";
+    "nav section section"
+    "nav section section"
 }
 
 /* All Grid Items */
 .container > * {
     background-color: mediumseagreen;
-    font-size: 80px;
+}
+h1 {
+    text-align:center;
 }
 
 header {
@@ -20,16 +22,9 @@ header {
 
 nav {
     grid-area: nav;
+    font-size:30px;
 }
 
 section {
     grid-area: section;
-}
-
-aside: {
-    grid-area: aside;
-}
-
-footer {
-    grid-area: footer;
 }
