@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="defalt.css">
     <link rel="stylesheet" href="grid.css">
     <title>Document</title>
+    <script>
+      function fn_spread(id){ var getID = document.getElementById(id); getID.style.display=(getID.style.display=='block') ? 'none' : 'block'; }
+    </script>
 </head>
 <body>
     <div class="container">
@@ -32,9 +35,18 @@
                   <li> 6월까지 시행되는 개별소비세의 감면(5% → 3% → 1.5%) 혜택과 기타 할인으로 약 120만 할인 </li>
                 </ul>
               </li>
-              <li>  <h3> 오릭스 캐피탈 대출 탈출 </h3>
+              <li>  <h3> 오릭스 캐피탈 대출 탈출 </h3> 
                 <ul>
-                  <li> 11.9%의 사악한 고금리 → 빌린돈(원금) 570에 700을 뜯어가는 어마무시한 상황 </li>
+                  <li> 11.9%의 사악한 고금리 → 빌린돈(원금) 570에 700을 뜯어가는 어마무시한 상황
+                     <button class="bt1" onclick="fn_spread('hc2');">
+                    펼치기 </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>←←←정확한 수치를 알고싶다면 누르세요.</i>
+                  
+                    <div id="hc2" class="ex1" style="display: none;">
+                      <hr>
+                     가나시의 배은망덕
+                      <hr>
+                
+                    </div>  </li> 
                 </ul>
               </li>
               <li>  <h3> 중고 감가 </h3>

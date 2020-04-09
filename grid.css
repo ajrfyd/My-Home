@@ -61,3 +61,14 @@ a {
           border-radius:3px;
           background-color:white;
 }
+.bt1 {
+    padding:2px 4px 2px 4px;
+          text-align:center;
+          font-weight:600;
+          line-height:1em;
+          box-shadow:1px 1px 2px #333;
+          border-radius:3px;
+}
+i {
+    font-size: 12px;
+}
