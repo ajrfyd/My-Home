@@ -72,3 +72,52 @@ a {
 i {
     font-size: 12px;
 }
+table {
+    width:100%;
+    height:250px;
+    border:solid black 1px;
+    border-spacing:3px;
+    border-radius: 3px;
+}  
+tbody {
+    height:50px;
+    text-align:center;
+}
+
+td {
+    border: 1px solid black;
+}
+thead {
+    text-align:center;
+    font-size:x-large;          
+}
+thead td {
+  border-color:red;
+}
+tfoot {
+    text-align:center;
+    height: 50px;
+}
+.ora {
+    border-color:orange;
+}
+.yel {
+    border-color:yellow;
+}
+.gre {
+    border-color:green;
+}
+.blu {
+    border-color:blue;
+}
+.nav {
+    border-color:navy;
+}
+.pur {
+    border-color:purple;
+}
+.let {
+    color:black;
+    line-height: 30px;
+}
+    
