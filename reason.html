@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Reason </title>
+    <script>
+        function fn_spread(id){ var getID = document.getElementById(id); getID.style.display=(getID.style.display=='block') ? 'none' : 'block'; }
+    </script>
+    <style>
+        body {
+            margin:50px;
+        }
+      .main {
+          border:1px solid black;
+          display:inline-block;
+          width:100%;
+          background-color:black;
+          color:white;
+          border-radius: 1em;
+      }    
+      h1 {
+          text-align:center;
+          color:tomato;
+          font-size:50px;
+      }
+      h2 {
+          color:white;
+      }
+      h3 {
+          color:aqua;
+      }
+      ul {
+          padding-left:10px;
+      }
+      .btn {
+    padding:2px 4px 2px 4px;
+          text-align:center;
+          font-weight:600;
+          line-height:1em;
+          box-shadow:1px 1px 2px #333;
+          border-radius:3px;
+          background-color:white;
+}
+    .bt1 {
+        padding:2px 4px 2px 4px;
+          text-align:center;
+          font-weight:600;
+          line-height:1em;
+          box-shadow:1px 1px 2px #333;
+          border-radius:3px;
+}
+table {
+    width:100%;
+    height:250px;
+    border:solid black 1px;
+    border-spacing:3px;
+    border-radius: 3px;
+}  
+tbody {
+    height:50px;
+    text-align:center;
+}
+
+td {
+    border: 1px solid black;
+}
+thead {
+    text-align:center;
+    font-size:x-large;          
+}
+thead td {
+  border-color:red;
+}
+tfoot {
+    text-align:center;
+    height: 50px;
+}
+.ora {
+    border-color:orange;
+}
+.yel {
+    border-color:yellow;
+}
+.gre {
+    border-color:green;
+}
+.blu {
+    border-color:blue;
+}
+.nav {
+    border-color:navy;
+}
+.pur {
+    border-color:purple;
+}
+.let {
+    color:black;
+    line-height: 30px;
+}
+i {
+    font-size: 12px;
+}
+    </style>
+</head>
+<body>
+    <h1> 부가적 이유 </h1>
+    <br>
+   <div class="main">
+  <ol>
+      <li> <h2>안전한 생활</h2>
+          <ul>
+              <li> <h3>가족계획에 따른 구성에 필요한 안전한 이동수단의 필요</h3> </li>
+          </ul>
+      </li>
+      <li> <h2>개별소비세 감면&nbsp;&nbsp;<a href="https://www.seoul.co.kr/news/newsView.php?id=20200302020014&wlog_tag3=naver" target="_blank"><input type="button" value="기사" class="btn"></a></h2>
+          <ul>
+              <li> <h3>6월까지 시행되는 개별소비세의 감면(5% → 1.5%)의 혜택과 기타 할인 등으로 약 120만원 할인</h3> </li>
+          </ul>
+      </li>
+      <li> <h2>오릭스 캐피탈 대출 탈출</h2>
+          <ul>
+              <li> <h3>11.9%의 고금리(원금570→700)  <button class="bt1" onclick="fn_spread('hc2');">
+                펼치기 </button>&nbsp;&nbsp;<i>←←←정확한 수치를 알고싶다면 누르세요.</i>
+              
+                <div id="hc2" class="ex1" style="display: none;">
+                  <hr>
+                  <table>
+                    <thead>
+                      <tr>
+                        <td colspan="4"> 원금 5,700,000원 <font color="red">금리 11.9%</font> </td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td colspan="2" class="ora"> 현재 지불금액 : 4,131,380원 </td> <td colspan="2" class="yel"> 남은 지불금액 : 2,831,300원(23회차) </td>
+                      </tr>
+                      <tr>
+                        <td class="gre"> 원금 : 3,179,470원 <br>이자 : 951,910원 </td> <td colspan="2" class="blu">  </td> <td class="nav"> 원금 : 2,520,530원 <br>이자 : 310,770원 </td>  
+                      </tr>
+                      <tfoot>
+                        <tr>
+                          <td colspan="4" class="pur"> 중도상환금 2,598,360원 > 중고차 대금 </td>  
+                        </tr>    
+                      </tfoot>
+                   
+                      
+                    </tbody>
+              
+                  </table>  
+                   <img src="orix.jpg" alt="orix" width="100%" height="250px">
+                  <hr>
+            
+                </div>  </h3> </li>
+          </ul>
+      </li>
+      <li> <h2>중고 감가</h2>
+          <ul>
+              <li> <h3>휠하우스 교체(사고)로 중고차 가격 하락.<br> 지금 판매해도 남은 대출금을 갚기 위해 돈을 얹어 줘야 하는 상황.<br>(중고차 견적 약 2,200,000원 → 대출잔액 약 2,600,000원)</h3> </li>
+          </ul>
+      </li>
+  </ol>
+
+
+   </div>         
+</body>
+</html>
